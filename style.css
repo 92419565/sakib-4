@@ -1,0 +1,123 @@
+*{
+	margin:0;
+	padding:0;
+}
+.header-area {
+	width: 100%;
+	height: 123px;
+	background-color: black;
+	float: left;
+	margin-top: 37px;
+	opacity: 0.8;
+	z-index:1000;
+	position: relative;
+}
+.logo-area {
+	width: 30%;
+	float: left;
+}
+.logo-area img {
+	height: 81px;
+	width: 276px;
+	margin: 16px;
+}
+.menu-area {
+	float: left;
+	text-align: center;
+	width: 70%;
+}
+.menu-area ul {
+	list-style: none;
+	text-align: right;
+}
+.menu-area ul li {
+	display: inline-block;
+	margin-top: 25px;
+}
+.menu-area ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	padding: 25px;
+	text-transform: capitalize;
+	display: block;
+	position:relative;
+}
+.menu-area ul li a::before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 3px;
+	background: red;
+	left: 0;
+	bottom: 12px;
+	opacity:0;
+}
+.menu-area ul li a:hover::before{
+	opacity:1;
+	transition:.5s;
+}
+.home-section {
+	background-image: url("img/v2 banner.jpg");
+	background-size: cover;
+	height: 600px;
+}
+.home-right{}
+.home-right h2{
+	display: block;
+	color: red;
+	font-size: 62px;
+	font-weight: bold;
+	text-align: right;
+}
+.home-right h3 {
+	font-size: 30px;
+	color: white;
+	line-height: 15px;
+	text-align: right;
+	margin-top: 20px;
+}
+.home-right a{}
+.bg {
+	background-image: url("img/v2 banner.jpg");
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+}
+.bg-content {
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	margin-top: 200px;
+	text-align: right;
+	right: 0;
+}
+.bg-content h2 {
+	font-size: 70px;
+	padding: 20px;
+	color: red;
+}
+.bg-content h3 {
+	color: white;
+	font-size: 30px;
+	padding: 20px;
+	margin-bottom:30px;
+}
+.bg-content a {
+	background-color: red;
+	font-size: 35px;
+	margin-right: 22px;
+	padding: 20px 100px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: white;
+}
+.bg-content a:hover{
+	background-color:black;
+	transition:.5s;
+}
+.home-bottom{
+	width:100%;
+	height:80px;
+	background-color:wheat;
+}
